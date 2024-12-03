@@ -7,5 +7,7 @@
 
 import Foundation
 
-print("Hello, World!")
+print("Testing nuclear reactor data...")
+let safe = PlantData.isLevelSafe([1, 2, 3, 4, 5])
+print("Plant is \(safe ? "safe" : "not safe")")
 

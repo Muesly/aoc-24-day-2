@@ -6,6 +6,16 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		6BBCAF692CFF2AF900AE5C3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B76F3382CFF0A0E004FAC16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B76F33F2CFF0A0E004FAC16;
+			remoteInfo = Day2;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		6B76F33E2CFF0A0E004FAC16 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -23,9 +33,22 @@
 		6B76F34E2CFF0A37004FAC16 /* Day2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Day2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		6BBCAF6C2CFF2BB100AE5C3B /* Exceptions for "Day2" folder in "Day2Tests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				PlantData.swift,
+			);
+			target = 6B76F34D2CFF0A37004FAC16 /* Day2Tests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		6B76F3422CFF0A0E004FAC16 /* Day2 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				6BBCAF6C2CFF2BB100AE5C3B /* Exceptions for "Day2" folder in "Day2Tests" target */,
+			);
 			path = Day2;
 			sourceTree = "<group>";
 		};
@@ -108,6 +131,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				6BBCAF6A2CFF2AF900AE5C3B /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				6B76F34F2CFF0A37004FAC16 /* Day2Tests */,
@@ -183,6 +207,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6BBCAF6A2CFF2AF900AE5C3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B76F33F2CFF0A0E004FAC16 /* Day2 */;
+			targetProxy = 6BBCAF692CFF2AF900AE5C3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		6B76F3452CFF0A0E004FAC16 /* Debug */ = {
@@ -316,6 +348,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				ENABLE_TESTABILITY = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
