@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "ADAAD633-EBDE-4AD7-933F-373A504C3A05",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:Day2.xcodeproj",
+        "identifier" : "6B76F34D2CFF0A37004FAC16",
+        "name" : "Day2Tests"
+      }
+    }
+  ],
+  "version" : 1
+}
