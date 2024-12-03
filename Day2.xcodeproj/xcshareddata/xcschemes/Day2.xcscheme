@@ -56,6 +56,12 @@
             ReferencedContainer = "container:Day2.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <CommandLineArguments>
+         <CommandLineArgument
+            argument = "&quot;/Users/tshort15/Code/Advent Of Code/2024/Day2/Resources/plantData.txt&quot;"
+            isEnabled = "YES">
+         </CommandLineArgument>
+      </CommandLineArguments>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"

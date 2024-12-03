@@ -20,8 +20,8 @@
 		6B76F33E2CFF0A0E004FAC16 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			dstPath = usr/share/man/man1;
+			dstSubfolderSpec = 7;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 1;
@@ -57,6 +57,11 @@
 			path = Day2Tests;
 			sourceTree = "<group>";
 		};
+		6BA556512CFF326F003B8165 /* Resources */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +85,7 @@
 		6B76F3372CFF0A0E004FAC16 = {
 			isa = PBXGroup;
 			children = (
+				6BA556512CFF326F003B8165 /* Resources */,
 				6B76F3422CFF0A0E004FAC16 /* Day2 */,
 				6B76F34F2CFF0A37004FAC16 /* Day2Tests */,
 				6B76F3412CFF0A0E004FAC16 /* Products */,
@@ -112,6 +118,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				6B76F3422CFF0A0E004FAC16 /* Day2 */,
+				6BA556512CFF326F003B8165 /* Resources */,
 			);
 			name = Day2;
 			packageProductDependencies = (
